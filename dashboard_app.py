@@ -49,17 +49,8 @@ def index():
 
 @app.route('/static/<path:filename>')
 def serve_static(filename):
-    """
-    Serves static assets from static/ directory or falls back to workspace root
-    (for visual artifact PNG images).
-    """
-    local_static_path = os.path.join(STATIC_DIR, filename)
-    if os.path.exists(local_static_path):
-        return send_from_directory(STATIC_DIR, filename)
-    root_path = os.path.join(BASE_DIR, filename)
-    if os.path.exists(root_path):
-        return send_from_directory(BASE_DIR, filename)
-    return "File not found", 404
+    """Serves static assets and visual plots directly from static directory."""
+    return send_from_directory(STATIC_DIR, filename)
 
 
 @app.route('/api/analyze', methods=['POST'])

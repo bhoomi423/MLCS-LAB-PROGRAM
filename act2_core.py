@@ -157,6 +157,10 @@ def load_models(base_dir=None):
 def extract_features(url: str) -> list:
     """Extracts 15 domain, lexical, and structural features from a URL string."""
     url_str = str(url).strip()
+    # Normalize scheme if omitted by user (e.g. 'google.com' -> 'https://google.com')
+    if not (url_str.lower().startswith('http://') or url_str.lower().startswith('https://')):
+        url_str = 'https://' + url_str
+
     url_lower = url_str.lower()
     length = len(url_str)
 
