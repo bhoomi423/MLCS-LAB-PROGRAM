@@ -31,10 +31,11 @@ ENV/
 
 # IDE & Editor settings
 .idea/
+.vscode/
 *.swp
 *.swo
 
-# Temp files
+# Temp files & logs
 tmp_mpl/
 tmp/
 *.log
@@ -42,3 +43,16 @@ tmp/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Lab Activities (Excluded from Git submission - Experiments 1-12 only)
+activity1*
+activity2*
+act2*
+act_*
+ddos_timeseries_analysis.py
+dashboard_app.py
+run_dashboard.*
+splunk_url_threat_events.*
+Time-Series_Network_logs.csv
+static/
+templates/
