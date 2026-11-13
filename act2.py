@@ -483,6 +483,20 @@ def main():
     print("\n=================================================================")
     print("[SUCCESS] All Activity 2 pipeline steps completed successfully!")
     print("=================================================================")
+    
+    # Auto-launch interactive Splunk Cyber SOC Dashboard
+    print("\n[+] Launching Splunk Cyber SOC Web Dashboard...")
+    print("    URL: http://127.0.0.1:5000")
+    print("    Press Ctrl+C to stop the dashboard when finished.\n")
+    try:
+        import dashboard_app
+        import webbrowser
+        webbrowser.open_new("http://127.0.0.1:5000")
+        dashboard_app.app.run(host='0.0.0.0', port=5000, debug=False)
+    except OSError:
+        print("[*] Dashboard server is already active and listening on http://127.0.0.1:5000")
+    except KeyboardInterrupt:
+        print("\n[*] Dashboard server stopped.")
 
 # ---------------------------------------------------------------------------
 # 3. High-Fidelity Splunk Visualizations Generator
