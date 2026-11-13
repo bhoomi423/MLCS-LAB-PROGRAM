@@ -30,10 +30,14 @@ env/
 ENV/
 
 # IDE & Editor settings
-.vscode/
 .idea/
 *.swp
 *.swo
+
+# Temp files
+tmp_mpl/
+tmp/
+*.log
 
 # OS files
 .DS_Store

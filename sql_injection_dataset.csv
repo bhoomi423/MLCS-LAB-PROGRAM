@@ -1,0 +1,301 @@
+query,label
+1' AND SLEEP(5) --,1
+' OR 'x'='x' --,1
+admin' --,1
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+1' AND SLEEP(5) --,1
+' OR 1=1 --,1
+' OR 1=1 --,1
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+SELECT count(*) FROM customers WHERE country = 'India';,0
+user' OR ''=',1
+"1 UNION SELECT 1, column_name FROM information_schema.columns --",1
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+1' AND SLEEP(5) --,1
+SELECT count(*) FROM customers WHERE country = 'India';,0
+admin' --,1
+' OR 'x'='x' --,1
+"' UNION SELECT null, username, password FROM users --",1
+' OR 1=1 --,1
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+' OR '1'='1,1
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+'; EXEC xp_cmdshell('dir'); --,1
+user' OR ''=',1
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+' OR 'x'='x' --,1
+user' OR ''=',1
+admin' OR 1=1#,1
+admin' AND 1=1 --,1
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+1' WAITFOR DELAY '0:0:5' --,1
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+1' OR '1' = '1' /*,1
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+SELECT * FROM products WHERE category = 'electronics';,0
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+' OR 1=1 --,1
+SELECT * FROM products WHERE category = 'electronics';,0
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+'; EXEC xp_cmdshell('dir'); --,1
+"' UNION SELECT null, username, password FROM users --",1
+"SELECT username, email FROM users WHERE id = 45;",0
+"test' UNION ALL SELECT 1, 2, sqlite_version() --",1
+' OR '1'='1,1
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+1' WAITFOR DELAY '0:0:5' --,1
+SELECT count(*) FROM customers WHERE country = 'India';,0
+"1 UNION SELECT 1, column_name FROM information_schema.columns --",1
+1' AND SLEEP(5) --,1
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+"1 UNION SELECT 1, column_name FROM information_schema.columns --",1
+SELECT count(*) FROM customers WHERE country = 'India';,0
+admin' OR 1=1#,1
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+1' OR '1' = '1' /*,1
+1' AND SLEEP(5) --,1
+SELECT * FROM products WHERE category = 'electronics';,0
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+' OR 1=1 --,1
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+"test' UNION ALL SELECT 1, 2, sqlite_version() --",1
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+1' OR '1' = '1' /*,1
+admin' AND 1=1 --,1
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+"1 UNION SELECT 1, column_name FROM information_schema.columns --",1
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+1; DROP TABLE users; --,1
+admin' AND 1=1 --,1
+"' UNION SELECT null, username, password FROM users --",1
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+SELECT count(*) FROM customers WHERE country = 'India';,0
+SELECT * FROM products WHERE category = 'electronics';,0
+1' WAITFOR DELAY '0:0:5' --,1
+"SELECT username, email FROM users WHERE id = 45;",0
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+1' WAITFOR DELAY '0:0:5' --,1
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+1' WAITFOR DELAY '0:0:5' --,1
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+"' UNION SELECT null, username, password FROM users --",1
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+1; DROP TABLE users; --,1
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+"SELECT username, email FROM users WHERE id = 45;",0
+1; DROP TABLE users; --,1
+user' OR ''=',1
+' OR '1'='1,1
+SELECT * FROM products WHERE category = 'electronics';,0
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+' OR 1=1 --,1
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+admin' OR 1=1#,1
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+1' AND SLEEP(5) --,1
+1' OR '1' = '1' /*,1
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+admin' OR 1=1#,1
+admin' --,1
+' OR 'x'='x' --,1
+SELECT count(*) FROM customers WHERE country = 'India';,0
+admin' OR 1=1#,1
+"' UNION SELECT null, username, password FROM users --",1
+admin' --,1
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+admin' AND 1=1 --,1
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+SELECT count(*) FROM customers WHERE country = 'India';,0
+' OR '1'='1,1
+admin' AND 1=1 --,1
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+1; DROP TABLE users; --,1
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+admin' OR 1=1#,1
+' OR 1=1 --,1
+1' OR '1' = '1' /*,1
+' OR 'x'='x' --,1
+admin' AND 1=1 --,1
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+SELECT count(*) FROM customers WHERE country = 'India';,0
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+"1 UNION SELECT 1, column_name FROM information_schema.columns --",1
+SELECT * FROM products WHERE category = 'electronics';,0
+' OR '1'='1,1
+1' OR '1' = '1' /*,1
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+1' WAITFOR DELAY '0:0:5' --,1
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+admin' AND 1=1 --,1
+1' AND SLEEP(5) --,1
+user' OR ''=',1
+"test' UNION ALL SELECT 1, 2, sqlite_version() --",1
+"1 UNION SELECT 1, column_name FROM information_schema.columns --",1
+SELECT count(*) FROM customers WHERE country = 'India';,0
+1; DROP TABLE users; --,1
+SELECT count(*) FROM customers WHERE country = 'India';,0
+1; DROP TABLE users; --,1
+'; EXEC xp_cmdshell('dir'); --,1
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+SELECT count(*) FROM customers WHERE country = 'India';,0
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+1' WAITFOR DELAY '0:0:5' --,1
+1' WAITFOR DELAY '0:0:5' --,1
+1' OR '1' = '1' /*,1
+"SELECT username, email FROM users WHERE id = 45;",0
+SELECT count(*) FROM customers WHERE country = 'India';,0
+admin' AND 1=1 --,1
+admin' OR 1=1#,1
+"SELECT username, email FROM users WHERE id = 45;",0
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+"' UNION SELECT null, username, password FROM users --",1
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+1' AND SLEEP(5) --,1
+"SELECT username, email FROM users WHERE id = 45;",0
+1' OR '1' = '1' /*,1
+SELECT * FROM products WHERE category = 'electronics';,0
+admin' AND 1=1 --,1
+admin' --,1
+SELECT * FROM products WHERE category = 'electronics';,0
+"' UNION SELECT null, username, password FROM users --",1
+' OR '1'='1,1
+"test' UNION ALL SELECT 1, 2, sqlite_version() --",1
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+"SELECT username, email FROM users WHERE id = 45;",0
+' OR '1'='1,1
+' OR 'x'='x' --,1
+admin' OR 1=1#,1
+admin' --,1
+"SELECT username, email FROM users WHERE id = 45;",0
+' OR 'x'='x' --,1
+"1 UNION SELECT 1, column_name FROM information_schema.columns --",1
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+'; EXEC xp_cmdshell('dir'); --,1
+"1 UNION SELECT 1, column_name FROM information_schema.columns --",1
+1' WAITFOR DELAY '0:0:5' --,1
+' OR '1'='1,1
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+SELECT count(*) FROM customers WHERE country = 'India';,0
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+1' OR '1' = '1' /*,1
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+SELECT * FROM products WHERE category = 'electronics';,0
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+'; EXEC xp_cmdshell('dir'); --,1
+"test' UNION ALL SELECT 1, 2, sqlite_version() --",1
+SELECT * FROM products WHERE category = 'electronics';,0
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+1' OR '1' = '1' /*,1
+"test' UNION ALL SELECT 1, 2, sqlite_version() --",1
+1; DROP TABLE users; --,1
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+"test' UNION ALL SELECT 1, 2, sqlite_version() --",1
+SELECT * FROM products WHERE category = 'electronics';,0
+"SELECT username, email FROM users WHERE id = 45;",0
+"1 UNION SELECT 1, column_name FROM information_schema.columns --",1
+admin' --,1
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+' OR '1'='1,1
+"test' UNION ALL SELECT 1, 2, sqlite_version() --",1
+1; DROP TABLE users; --,1
+"' UNION SELECT null, username, password FROM users --",1
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+1' AND SLEEP(5) --,1
+admin' --,1
+1; DROP TABLE users; --,1
+"test' UNION ALL SELECT 1, 2, sqlite_version() --",1
+' OR 'x'='x' --,1
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+admin' OR 1=1#,1
+SELECT count(*) FROM customers WHERE country = 'India';,0
+user' OR ''=',1
+user' OR ''=',1
+' OR 'x'='x' --,1
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+SELECT count(*) FROM customers WHERE country = 'India';,0
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+"SELECT username, email FROM users WHERE id = 45;",0
+"SELECT username, email FROM users WHERE id = 45;",0
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+SELECT * FROM products WHERE category = 'electronics';,0
+user' OR ''=',1
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+"SELECT username, email FROM users WHERE id = 45;",0
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0
+' OR 1=1 --,1
+UPDATE accounts SET balance = 500 WHERE account_no = 1002;,0
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+' OR 1=1 --,1
+'; EXEC xp_cmdshell('dir'); --,1
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+admin' --,1
+1; DROP TABLE users; --,1
+SELECT * FROM orders WHERE user_id = 12 ORDER BY date DESC;,0
+SELECT * FROM products WHERE category = 'electronics';,0
+'; EXEC xp_cmdshell('dir'); --,1
+'; EXEC xp_cmdshell('dir'); --,1
+admin' AND 1=1 --,1
+admin' OR 1=1#,1
+"' UNION SELECT null, username, password FROM users --",1
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+"SELECT emp_name, salary FROM employee WHERE department = 'IT';",0
+user' OR ''=',1
+"1 UNION SELECT 1, column_name FROM information_schema.columns --",1
+"SELECT username, email FROM users WHERE id = 45;",0
+user' OR ''=',1
+"test' UNION ALL SELECT 1, 2, sqlite_version() --",1
+' OR 'x'='x' --,1
+admin' --,1
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+SELECT * FROM products WHERE category = 'electronics';,0
+' OR 1=1 --,1
+"SELECT item_name, price FROM inventory WHERE in_stock = 1;",0
+"SELECT title, author FROM books WHERE publication_year > 2020;",0
+"' UNION SELECT null, username, password FROM users --",1
+"SELECT username, email FROM users WHERE id = 45;",0
+1' WAITFOR DELAY '0:0:5' --,1
+SELECT * FROM products WHERE category = 'electronics';,0
+1' AND SLEEP(5) --,1
+"SELECT username, email FROM users WHERE id = 45;",0
+DELETE FROM cart_items WHERE item_id = 99 AND user_id = 4;,0
+' OR '1'='1,1
+"INSERT INTO students (name, age, grade) VALUES ('Alice', 20, 'A');",0

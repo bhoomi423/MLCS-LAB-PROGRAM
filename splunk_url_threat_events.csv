@@ -1,0 +1,23 @@
+timestamp,client_ip,user,dest_domain,url,http_status,ml_prediction,risk_score,risk_level,alert_triggered,soc_action
+2026-11-05 08:34:00,10.10.18.163,c.wilson,www.google.com,https://www.google.com/,200,Legitimate,3,LOW,SUPPRESSED,ALLOW_PERMITTED
+2026-11-05 08:39:00,10.10.29.158,d.taylor,www.amazon.com,https://www.amazon.com/login,200,Legitimate,23,LOW,SUPPRESSED,ALLOW_PERMITTED
+2026-11-05 08:47:00,10.10.30.225,b.sharma,github.com,https://github.com/openai,200,Legitimate,34,MEDIUM,SUPPRESSED,ISOLATE_BROWSER_WARN
+2026-11-05 08:55:00,10.10.24.107,d.taylor,www.microsoft.com,https://www.microsoft.com/en-us/,200,Legitimate,2,LOW,SUPPRESSED,ALLOW_PERMITTED
+2026-11-05 09:01:00,10.10.26.94,e.brown,www.bankofamerica.com,https://www.bankofamerica.com/security,200,Legitimate,32,MEDIUM,SUPPRESSED,ISOLATE_BROWSER_WARN
+2026-11-05 09:06:00,10.10.32.48,a.patel,www.wikipedia.org,https://www.wikipedia.org/,200,Legitimate,3,LOW,SUPPRESSED,ALLOW_PERMITTED
+2026-11-05 09:14:00,10.10.26.94,c.wilson,paypal-login-security-alert.com,http://paypal-login-security-alert.com/verify,403,Malicious,100,CRITICAL,TRIGGERED,BLOCK_FIREWALL_SINKHOLE
+2026-11-05 09:22:00,10.10.14.105,d.taylor,verify-account-amazon.biz,http://verify-account-amazon.biz/login,403,Malicious,100,CRITICAL,TRIGGERED,BLOCK_FIREWALL_SINKHOLE
+2026-11-05 09:28:00,10.10.48.136,c.wilson,secure-facebook-login-update.ru,http://secure-facebook-login-update.ru/confirm,403,Malicious,100,CRITICAL,TRIGGERED,BLOCK_FIREWALL_SINKHOLE
+2026-11-05 09:37:00,10.10.14.105,b.sharma,192.168.1.105,http://192.168.1.105/admin/bank-login.html,403,Malicious,100,CRITICAL,TRIGGERED,BLOCK_FIREWALL_SINKHOLE
+2026-11-05 09:43:00,10.10.48.136,a.patel,google-account-reset-now.xyz,http://google-account-reset-now.xyz/auth?claim=free-gift,403,Malicious,100,CRITICAL,TRIGGERED,BLOCK_FIREWALL_SINKHOLE
+2026-11-05 09:49:00,10.10.29.158,c.wilson,chronopost-service-enligne.net,http://chronopost-service-enligne.net/assurance/login.php,403,Malicious,100,CRITICAL,TRIGGERED,BLOCK_FIREWALL_SINKHOLE
+2026-11-05 09:58:00,10.10.29.158,b.sharma,www.reddit.com,https://www.reddit.com/r/cybersecurity,200,Legitimate,4,LOW,SUPPRESSED,ALLOW_PERMITTED
+2026-11-05 10:04:00,10.10.45.199,e.brown,stackoverflow.com,https://stackoverflow.com/questions,200,Legitimate,45,MEDIUM,SUPPRESSED,ISOLATE_BROWSER_WARN
+2026-11-05 10:13:00,10.10.20.191,e.brown,bankofamerica-login-confirm.net,http://bankofamerica-login-confirm.net/update,403,Malicious,100,CRITICAL,TRIGGERED,BLOCK_FIREWALL_SINKHOLE
+2026-11-05 10:19:00,10.10.29.158,d.taylor,microsoft-support-verification.top,http://microsoft-support-verification.top/auth,403,Malicious,100,CRITICAL,TRIGGERED,BLOCK_FIREWALL_SINKHOLE
+2026-11-05 10:24:00,10.10.14.105,e.brown,aws.amazon.com,https://aws.amazon.com/console,200,Legitimate,4,LOW,SUPPRESSED,ALLOW_PERMITTED
+2026-11-05 10:33:00,10.10.17.137,m.jones,appleid-reset-alert.org,http://appleid-reset-alert.org/restore,403,Malicious,100,CRITICAL,TRIGGERED,BLOCK_FIREWALL_SINKHOLE
+2026-11-05 10:37:00,10.10.32.48,j.smith,portal.azure.com,https://portal.azure.com,200,Legitimate,4,LOW,SUPPRESSED,ALLOW_PERMITTED
+2026-11-05 10:47:00,10.10.48.136,c.wilson,free-gift-cards-claim-now.info,http://free-gift-cards-claim-now.info/redeem,403,Malicious,100,CRITICAL,TRIGGERED,BLOCK_FIREWALL_SINKHOLE
+2026-11-05 10:53:00,10.10.48.136,svc_scanner,www.netflix.com,https://www.netflix.com/browse,200,Legitimate,4,LOW,SUPPRESSED,ALLOW_PERMITTED
+2026-11-05 11:02:00,10.10.18.163,m.jones,secure-banking-update-alert.cn,http://secure-banking-update-alert.cn/pin,403,Malicious,100,CRITICAL,TRIGGERED,BLOCK_FIREWALL_SINKHOLE
